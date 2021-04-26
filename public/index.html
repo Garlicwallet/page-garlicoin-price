@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Garlicoin Price Quote</title>
+  <meta name="description" content="Garlicoin Price Quote">
+  <meta name="author" content="garlicwallet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+	<style>
+	html{
+		background: #343240;
+	}
+		body {
+			  margin: auto;
+	
+  width: 50%;
+		font-family: 'Work Sans', sans-serif;
+		text-align: center;
+		color: gold;
+	}
+
+	#quote-time{
+		font-style: italic;
+		color: #bfbfbf;
+	}
+
+</style>
+
+</head>
+
+<body>
+	<h1>Current Garlicoin(GRLC) Price</h1>
+	<h2><span id="from">₲1</span> = <span id="to">₲1</span><span class="footnote">*</span></h2>
+	<p id="quote-time"></p>
+
+	 <script>
+		document.getElementById("quote-time").innerHTML = "* Price quote as of " + new Date();
+	</script> 
+</body>
+</html>
